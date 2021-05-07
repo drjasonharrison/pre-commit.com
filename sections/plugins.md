@@ -160,8 +160,8 @@ repository's configuration.
         the hook passes.  _new in 1.6.0_.
 =r=
     =c= [`log_file`](_#config-log_file)
-    =c= (optional) if present, the hook output will additionally be written
-        to a file.
+    =c= (optional) path for the hook output to be written to file if the hook fails
+        or if [verbose](...) is true.
 ```
 
 One example of a complete configuration:
